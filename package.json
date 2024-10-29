@@ -1,0 +1,21 @@
+{
+  "name": "desktop-app",
+  "version": "1.0.0",
+  "description": "\"hello world\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./styles.css -o ./dist/styles.css --watch",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "electron-auto-launch": "^5.0.7",
+    "electron-store": "^10.0.0"
+  }
+}
